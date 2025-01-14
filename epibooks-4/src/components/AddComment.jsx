@@ -26,7 +26,7 @@ const AddComment = (props) => {
           body: JSON.stringify(commentObj),
           headers: {
             'Content-type': 'application/json',
-            Authorization: 'Bearer <YOUR_TOKEN>',
+            Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzVjMDFlZGQyMjA3MTAwMTVkZTJmNWQiLCJpYXQiOjE3MzY3Nzk0ODAsImV4cCI6MTczNzk4OTA4MH0.fJ7dtMaMlLeyzfmyTf7EEVYYim0_cNiEIGY_W5HIvM4',
           },
         }
       );
